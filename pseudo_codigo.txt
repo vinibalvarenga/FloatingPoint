@@ -1,0 +1,44 @@
+123
+-----------
+12
+3
+-----------
+-123
+-----------
+-1
+23
+
+Ola professor,
+estamos fazeno o trabalho de ponto flutuante e estamos com algumas duvidas. Primeiramente, h'a a mens~ao da representacao de numeros em binario e em decimal no asm (como h'a o numero hexadecimal com /), quais seriam os sinais dessa representacao?
+
+Alem disso, sempre estamos utilizando numeros em hexadecimal com 4 algarismos, entretanto, caso a gente coloque uma conStante com mais de 4 algarismos (como a CTE1), poderiamos fazer a soma entre as duas (CTE1 e CTE2) com tamanhos diferentes e esperar que o resultado esteje correto, como fizemos a baixo?
+
+
+CTE1 K /af23454 
+
+CTE2 K /B1324
+
+RESULTADO K 
+
+SOMA CS
+     LD CTE1
+     AD CTE2
+     MM RESULTADO
+     RS
+
+
+
+
+
+Algo: float
+Input: numero decimal
+Output: numero ponto flutuante
+
+if(caracter[0]=='-'):
+    s=1
+else:
+    s=0
+
+while():
+    
+
